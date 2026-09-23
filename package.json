@@ -8,6 +8,7 @@
     "android": "expo run:android"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
     "@tensorflow-models/coco-ssd": "^2.2.3",
     "@tensorflow/tfjs": "^4.22.0",
     "@tensorflow/tfjs-react-native": "^1.0.0",
@@ -17,6 +18,7 @@
     "expo-speech": "~13.1.7",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "react-native-fs": "^2.20.0"
   }
 }
