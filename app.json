@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Vision Aid",
+    "slug": "vision-aid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.visionaid.objectdetector",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Vision Aid needs camera access to detect objects."
+        }
+      ]
+    ]
+  }
+}
