@@ -11,7 +11,9 @@
       "versionCode": 1,
       "permissions": [
         "CAMERA",
-        "VIBRATE"
+        "VIBRATE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "plugins": [
@@ -21,6 +23,12 @@
           "cameraPermission": "Vision Aid needs camera access to detect objects."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0e448f7f-1f56-4dba-bc4c-fb4d16087a37"
+      }
+    },
+    "owner": "rob01"
   }
 }

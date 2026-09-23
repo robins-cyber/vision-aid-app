@@ -14,10 +14,9 @@
     "expo": "~53.0.20",
     "expo-camera": "~16.1.8",
     "expo-gl": "~15.1.7",
-    "expo-gl-cpp": "~14.1.0",
+    "expo-speech": "~13.1.7",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.5",
-    "expo-speech": "~13.1.7"
+    "react-native": "0.79.5"
   }
 }
